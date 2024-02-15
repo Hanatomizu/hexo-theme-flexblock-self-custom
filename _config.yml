@@ -87,7 +87,7 @@ polyfill:
 # 腾讯分析
 #tencent_analytics: 
 # 站点ico
-favicon: /favicon.ico
+favicon: https://github.com/Hanatomizu/blog/source/favicon.ico
 
 
 # Social Icon
