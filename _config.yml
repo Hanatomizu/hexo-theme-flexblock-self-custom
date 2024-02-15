@@ -1,20 +1,22 @@
 # Header
 menu:
-  首页: /
-  友链: /links
-  关于: /about
+  Home: /
+  Archives: /archives
+  #Links: /links
+  About: /about
+  GitHub: https://github.com/Hanatomizu/blog
 
 # 主页banner图
-banner: https://qiniu.sukoshi.xyz/src/images/68686407_p0.jpg
+banner: https://raw.githubusercontent.com/Hanatomizu/blog/master/source/banner.jpg
 
 # 站点通知信息
-notice: flex-block主题部分重构，详情查看https://github.com/miiiku/flex-block
+notice: The comment system is not available yet, please create issues on GitHub if you have any problems.
 
 # 作者信息
 author:
-  name: Sukoshi
-  avatar: https://s.gravatar.com/avatar/2d6b803eea37de0257620d5fabee7e64?s=200&r=g&d=retro
-  description: 贵在坚持
+  name: Hanatomizu
+  avatar:  https://raw.githubusercontent.com/Hanatomizu/blog/master/source/avatar.png
+  description: そう、君は友達 
 
 toc:
   max_depth: 3 # 生成 TOC 的最大深度
@@ -30,10 +32,10 @@ comments:
   valine:
     appId: 
     appKey: 
-    placeholder: 随便说点什么叭～ # 评论框占位提示符
+    placeholder: 'Wanna say anything there?～' # 评论框占位提示符
     avatar: mp # Gravatar 头像展示方式
     pageSize: 10 # 评论列表分页，每页条数
-    lang: zh-cn # 多语言支持
+    lang: en-us # 多语言支持
     visitor: true # 文章访问量统计
     recordIP: true # 是否记录评论者IP
     enableQQ: false # 是否启用昵称框自动获取QQ昵称和QQ头像，开启后是在昵称框输入QQ号码进行获取
@@ -44,7 +46,7 @@ comments:
   # docs: https://disqus.com/
   disqus:
     website: 
-    error: 如果你看不到评论，那么就真的看不到评论 w(゜Д゜)w
+    error: An error occurpted w(゜Д゜)w
 
 # dplayer 视频播放
 # docs: http://dplayer.js.org/#/zh-Hans/
@@ -58,7 +60,7 @@ dplayer:
 # aplayer 音频播放
 # docs: https://aplayer.js.org/#/zh-Hans/
 aplayer:
-  enable: true
+  enable: false
   theme: "#b7daff"
   autoplay: false
   loop: false
@@ -76,17 +78,14 @@ polyfill:
   enable: false
 
 
-# 国内备案信息
-beian: 
-
 # 谷歌分析
-google_analytics: 
+#google_analytics: 
 # gauges分析
-gauges_analytics: 
+#gauges_analytics: 
 # 百度分析
-baidu_analytics: 
+#baidu_analytics: 
 # 腾讯分析
-tencent_analytics: 
+#tencent_analytics: 
 # 站点ico
 favicon: /favicon.ico
 
@@ -98,5 +97,5 @@ social_icon:
     ins     :
     zhihu   :
     weibo   : 
-    github  : https://github.com/miiiku/
-    twitter : https://twitter.com/guanquanhong
+    github  : https://github.com/hanatomizu/
+    twitter : 
